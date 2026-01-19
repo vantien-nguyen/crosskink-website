@@ -1,0 +1,12 @@
+{
+  "name": "crosslink-website",
+  "version": "1.0.0",
+  "description": "Crosslink landing page",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

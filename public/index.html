@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crosslink – Intelligent Cross-Sell & Upsell</title>
+  <meta name="description" content="Crosslink helps e-commerce merchants increase revenue with AI-powered cross-sell and upsell recommendations." />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 48px 24px;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 12px;
+    }
+    h2 {
+      margin-top: 48px;
+      font-size: 1.75rem;
+      border-bottom: 1px solid #334155;
+      padding-bottom: 8px;
+    }
+    p {
+      font-size: 1.05rem;
+      color: #cbd5f5;
+    }
+    ul {
+      margin-top: 16px;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .badge {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      margin-bottom: 24px;
+    }
+    .features-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      margin-top: 32px;
+    }
+    .feature-card {
+      background: #020617;
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .feature-card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 12px;
+      border: 1px solid #334155;
+    }
+    footer {
+      margin-top: 64px;
+      border-top: 1px solid #334155;
+      padding-top: 24px;
+      font-size: 0.9rem;
+      color: #94a3b8;
+    }
+    a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      .features-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <span class="badge">Early-stage SaaS</span>
+
+    <h1>Crosslink</h1>
+    <p>
+      Crosslink is a SaaS platform that helps e-commerce merchants increase their
+      average order value through intelligent, AI-driven cross-sell and upsell
+      recommendations.
+    </p>
+
+    <h2>Who it’s for</h2>
+    <p>
+      Small and medium-sized e-commerce businesses using Shopify who want to increase
+      revenue without complex setup.
+      <br /><br />
+      Crosslink is built with a modular architecture and will be expanded in the future
+      to support other e-commerce platforms such as <strong>PrestaShop</strong>,
+      <strong>WooCommerce</strong>, and additional marketplaces.
+    </p>
+
+    <h2>Product Configuration</h2>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>Cross-sell Configuration</h3>
+        <p>
+          Define complementary products to be recommended together, based on
+          purchase behavior, product similarity, and AI-driven insights.
+        </p>
+        <img src="images/cross_sell.png" alt="Cross-sell configuration interface">
+      </div>
+
+      <div class="feature-card">
+        <h3>Upsell Configuration</h3>
+        <p>
+          Configure higher-value product recommendations to encourage upgrades
+          and increase average order value at key moments in the purchase journey.
+        </p>
+        <img src="images/upsell.png" alt="Upsell configuration interface">
+      </div>
+    </div>
+
+    <h2>Technology</h2>
+    <ul>
+      <li>AWS ECS for containerized backend services</li>
+      <li>PostgreSQL (Amazon RDS)</li>
+      <li>Redis for caching and background tasks</li>
+      <li>Machine learning models for personalized product recommendations</li>
+      <li>Event-based data pipelines for training and evaluation</li>
+      <li>React (TypeScript) frontend</li>
+      <li>Django REST API backend</li>
+    </ul>
+
+    <h2>Project Status</h2>
+    <p>
+      MVP currently in development. Initial AI recommendation models are being
+      designed and evaluated using early product and interaction data.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Van Tien Nguyen<br />
+      Paris, France<br />
+      <a href="mailto:your.email@example.com">your.email@example.com</a>
+    </p>
+
+    <footer>
+      © 2026 Crosslink – Personal project
+    </footer>
+  </div>
+
+</body>
+</html>
